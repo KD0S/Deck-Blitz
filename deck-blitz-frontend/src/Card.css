@@ -1,0 +1,49 @@
+.card {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 10px #f1f1f2;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+
+.blue {
+  background-color: #0e1428;
+}
+
+.red {
+  background-color: #d95d39;
+}
+
+.green {
+  background-color: #b6dc76;
+}
+
+.yellow {
+  background-color: #f0a202;
+}
+
+.white {
+  color: #f1f1f2;
+}
+
+.icon-tl {
+  font-size: 1.2em;
+  margin-left: 1em;
+}
+
+.icon-center {
+  font-weight: 900;
+  font-size: 4em;
+  text-align: center;
+}
+
+.icon-br {
+  font-size: 1.2em;
+  text-align: end;
+  margin-right: 1em;
+}
