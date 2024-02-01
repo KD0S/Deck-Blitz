@@ -1,13 +1,20 @@
 .card {
-  height: 300px;
-  width: 200px;
+  height: 200px;
+  min-width: 150px;
   border-radius: 20px;
   border: solid 10px #f1f1f2;
-  margin: 1em;
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: space-evenly;
+  margin-left: -70px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #242424;
+  cursor: pointer;
+}
+
+.card:hover {
+  top: -60px;
 }
 
 
@@ -32,18 +39,21 @@
 }
 
 .icon-tl {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin-left: 1em;
+  margin-top: 2em;
 }
 
 .icon-center {
-  font-weight: 900;
-  font-size: 4em;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0.6rem;
   text-align: center;
 }
 
 .icon-br {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-align: end;
   margin-right: 1em;
+  margin-bottom: 2em;
 }

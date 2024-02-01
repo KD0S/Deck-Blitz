@@ -1,0 +1,29 @@
+.cards-container {
+    display: flex;
+    transform: transform 0.5s ease-in-out;
+}
+
+.cards-wrapper {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-ui {
+    min-height: 65%;
+}
+
+.player-ui {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
